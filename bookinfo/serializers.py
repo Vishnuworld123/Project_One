@@ -7,7 +7,7 @@ class BookSerializer(serializers.ModelSerializer):
         model = Book
         exclude = ['is_deleted']
 
-class DreamrealSerializer(serializers.ModelSerializer):
+class BookSerializer(serializers.ModelSerializer):
     class Meta:
-        model = Dreamreal
+        model = Book
         exclude = ['is_deleted']
