@@ -1,4 +1,4 @@
-from bookinfo.models import Book
+from bookinfo.models import Book, Dreamreal
 from rest_framework import serializers
 
 
